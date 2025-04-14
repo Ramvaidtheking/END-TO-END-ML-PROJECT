@@ -1,0 +1,5 @@
+pandas
+numpy
+seaborn
+#-e . will be used to connect requirements.txt and setup.py file
+-e .
