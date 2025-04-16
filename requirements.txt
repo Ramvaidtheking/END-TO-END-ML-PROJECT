@@ -1,5 +1,14 @@
 pandas
 numpy
 seaborn
-#-e . will be used to connect requirements.txt and setup.py file
 -e .
+'''
+-e = editable mode
+
+. = current directory
+
+💡 What it does:
+Installs the current project (the one with setup.py or pyproject.toml) in a way that points to your source code, instead of copying it.
+
+Any changes you make to the code will reflect immediately — no need to reinstall.
+'''
